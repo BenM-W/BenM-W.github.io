@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 5px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: black;
+  background-color: #ebdeb5; /* Set the background color for the entire page */
+}
+
+h1 a {
+  color: red !important;
+  text-decoration: none; /* Remove the underline */
+}
+
+h1, h2, h3 {
+  font-family: serif;
+  font-weight: normal;
+  color: green;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+/* Link styles */
+a {
+  color: #1500ff; /* Set the default text color */
+}
+
+a:visited {
+  color: #1500ff; /* Set the color for visited links to the default color */
+}
+
+a:hover {
+  color: #ff499e; /* Set the color when the link is hovered */
+}
